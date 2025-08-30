@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lab_7_Baginsky_3ISTyd_122</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    	<string name="B0_caption">Multitouch окно</string>
+	<string name="B1_caption">Первое окно</string>
+	<string name="B2_caption">Второе окно</string>
+		<string name="B3_caption">Третье окно</string>
+	<string name="B4_caption">Четвертое окно</string>
+		<string name="B5_caption">Пятое окно</string>
+			<string name="B6_caption">Пятиугольник</string>
+			<string name="B7_caption">Шестиугольник</string>
+			
+			<string name="N_caption">Далее</string>
+</resources>

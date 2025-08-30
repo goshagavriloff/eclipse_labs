@@ -1,0 +1,271 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.baginsky_3istyd_122.lab_2.MainActivity" >
+
+
+     <EditText
+android:id="@+id/editText1"
+android:layout_width="match_parent" 
+android:layout_height="131dp"
+android:layout_marginBottom="32dp"
+android:contentDescription="@string/editText1" 
+android:hint="@string/editText1"
+android:importantForAccessibility="auto"
+android:inputType ="number|numberDecimal" 
+android:labelFor="@+id/editText1"
+tools:ignore="ContentDescription,LabelFor" />   
+    
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true" >
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginTop="0dp"
+                    android:tag="@string/tags_number"
+                    android:text="@string/_7" />
+
+                <Button
+                    android:id="@+id/button8"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginTop="0dp"
+                    android:tag="@string/tags_number"
+                    android:text="@string/_8" />
+                <Button
+                    android:id="@+id/button9"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginTop="0dp"
+                    android:tag="@string/tags_number"
+                    android:text="@string/_9" />
+                
+                <Button
+                    android:id="@+id/buttonDiv"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginTop="0dp"
+                    android:tag="@string/tags_operation"
+                    android:text="@string/_div" />
+                
+                <Button
+                    android:id="@+id/buttonMC"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginTop="0dp"
+                    android:tag="@string/tags_execute"
+                    android:text="@string/_mc" />
+                
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true" >
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginTop="0dp"
+                    android:tag="@string/tags_number"
+                    android:text="@string/_4" />
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginTop="0dp"
+                    android:tag="@string/tags_number"
+                    android:text="@string/_5" />
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginTop="0dp"
+                    android:tag="@string/tags_number"
+                    android:text="@string/_6" />
+
+                <Button
+                    android:id="@+id/buttonMul"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginTop="0dp"
+                    android:tag="@string/tags_operation"
+                    android:text="@string/_mul" />
+                <Button
+                    android:id="@+id/buttonM"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginTop="0dp"
+                    android:tag="@string/tags_execute"
+                    android:text="@string/_m" />
+
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true" >
+
+                
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginTop="0dp"
+                    android:tag="@string/tags_number"
+                    android:text="@string/_1" />
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginTop="0dp"
+                    android:tag="@string/tags_number"
+                    android:text="@string/_2" />
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginTop="0dp"
+                    android:tag="@string/tags_number"
+                    android:text="@string/_3" />
+               <Button
+                    android:id="@+id/buttonSub"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginTop="0dp"
+                    android:tag="@string/tags_operation"
+                    android:text="@string/_sub" />  
+                    <Button
+                    android:id="@+id/buttonSqrt"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginTop="0dp"
+                    android:tag="@string/tags_execute"
+                    android:text="@string/_sqrt" />
+                
+            </LinearLayout>
+             <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true" >
+               <Button
+                    android:id="@+id/buttonPoint"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginTop="0dp"
+                    android:tag="@string/tags_number"
+                    android:text="@string/_point"
+                     />  
+                    <Button
+                    android:id="@+id/button0"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginTop="0dp"
+                    android:tag="@string/tags_number"
+                    android:text="@string/_0" />  
+                    <Button
+                    android:id="@+id/buttonEq"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginTop="0dp"
+                    android:tag="@string/tags_execute"
+                    android:text="@string/_eq" /> 
+
+                    <Button
+                        android:id="@+id/buttonAdd"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginBottom="3dp"
+                        android:layout_marginEnd="3dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginTop="0dp"
+                    android:tag="@string/tags_operation"
+                        android:text="@string/_add" />
+                    <Button
+                        android:id="@+id/buttonPow"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginBottom="3dp"
+                        android:layout_marginEnd="3dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginTop="0dp"
+                    android:tag="@string/tags_operation"
+                        android:text="@string/_pow" />
+   
+            </LinearLayout>
+            </LinearLayout>
+
+</RelativeLayout>

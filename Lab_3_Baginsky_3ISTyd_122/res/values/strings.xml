@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lab_3_Baginsky_3ISTyd_122</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="TextView"/>
+    <string name="call_second_activity">Call second activity</string>
+    
+    <string name="second_activity">Second activity</string>
+    <string name="go_to_first_activity">GO BACK</string>
+    <string name="editMessage"></string>
+    <string name="call_third_activity">Call third activity</string>
+    
+    <string name="third_activity">Third activity</string>
+</resources>

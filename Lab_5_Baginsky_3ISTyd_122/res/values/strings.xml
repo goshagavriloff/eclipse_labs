@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lab_5_Baginsky_3ISTyd_122</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+	<string name="B1_caption">Добавить запись</string>
+	<string name="B2_caption">Таблица</string>
+	
+	
+	<string name="BEdit1_caption">Add</string>
+	<string name="BEdit2_caption">Read</string>
+	<string name="BEdit3_caption">Clear</string>
+</resources>

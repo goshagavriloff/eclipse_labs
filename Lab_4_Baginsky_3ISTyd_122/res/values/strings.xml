@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lab_4_Baginsky_3ISTyd_122</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="x">x</string>
+	<string name="y">y</string>
+	<string name="z">z</string>
+	<string name="light">Освещенность</string>
+	<string name="magnetic">Магнитный сенсор</string>
+	<string name="proximity">Приближение</string>
+	<string name="acc">Акселерометр</string>
+	<string name="B1_caption">Список датчиков</string>
+	
+	 <string name="B2_caption">Акселерометр</string>
+  <string name="B3_caption">Компас</string>
+  
+<item type="id" name="layout_id"/>
+<item type="id" name="image_id" />
+<item type="id" name="button_id" />
+</resources>
